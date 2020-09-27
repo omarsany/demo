@@ -1,0 +1,223 @@
+.header{
+    line-height: 4;
+    border-bottom: 1px solid #dddddd;
+}
+.header h3{
+    line-height: 55px;
+    color: #a6a6a6;
+    font-style: oblique;
+}
+.header ul{}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 18px;
+    line-height: 27px;
+}
+.header ul li a{
+    color: #1b1717a6;
+}
+.header ul li a:hover{
+    color: blue;
+    text-decoration: none;
+}
+#down{
+    margin-left: 7px;
+    font-size: 11px;
+}
+.header ul ul {
+	display: none;
+	position: absolute;
+	top: 50px; /* the height of the main nav */
+	margin-left: -113px;
+	font-size: 15px;
+	border: 1px solid #dddddd;
+}
+.header ul li:hover > ul {
+    display: inherit;
+}
+.header ul ul li{
+    width: 180px;
+    float:none;
+    display:list-item;
+    text-align: center;
+    position: relative;
+    padding: 2px 6px;
+    margin-left: -39px;
+}
+.header ul ul ul li{
+
+        position: relative;
+        top:-60px; 
+        left:170px;
+}
+.form-control{
+    border: none;
+}
+.main{
+    margin-bottom: 88px;
+}
+.main img{
+    width: 100%;
+    margin-left: -65px;
+}
+.main h3{
+    margin-top: 66px;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.main p{
+    width: 500px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.btn{
+    font-size: 16px;
+    background: #745cf9;
+    color: #ffffff;
+    padding: 10px 50px;
+    margin-top: 20px;
+}
+.main-2{
+    background-color:#f5f5f5;
+    margin-top: 10px;
+    padding-bottom: 42px;
+}
+.main-2 h3{
+    margin-top: 114px;
+    margin-bottom: 32px;
+}
+.main-2 p{
+    font-size: 18px;
+    font-weight: 200;
+    padding: 11px 0px;
+}
+.main-2 img{
+    width: 100%;
+    margin-top: 26px;
+}
+
+.menu-3{
+    background-image: url(./img/under.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+    
+.menu-3 h1{
+    color: white;
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+.menu-3 p{
+    color: white;
+}
+.menu-4{
+
+    background-color: rgb(240, 230, 230)ddd;
+}
+.menu-4 h2{}
+.menu-4 p{}
+.btn:hover{
+    background: rgb(50, 33, 202);
+    color: white;
+}
+.menu-4 img{
+    margin-top: 30px;
+  
+
+}
+.menu-5{
+    background-color: black;
+}
+.menu-5 h2{
+    color: white;
+    margin-top: 69px;
+}
+.menu-5 h4{
+    color: white;
+    padding-top: 5px;
+    font-size: 15px;
+    margin-bottom: 38px;
+}
+.menu-6{}
+.menu-6 ul li{
+    display: inline-block;
+}
+.menu-6 ul li img{
+    max-width: 363px;
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+.box{
+    background-image: url(./img/sea.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 200px 0px;
+    
+}
+.box h1{
+    color: white;
+}
+.box p{
+    color: white;
+}
+.sub{
+    background: blue;
+    width: 160px;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+}
+.sub2{
+   border: 2px solid white;
+    width: 160px;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 20px;
+}
+.sub:hover{
+    background-color: teal;
+}
+.sub2:hover{
+    background-color: tomato;
+}
+
+
+.sany{
+    margin-top: 28px;
+}
+.sany img{
+    width: 100%;
+}
+.box2{
+    background-clip: #dddddd;
+}
+.box2 h2{
+    
+margin-top: 20px;
+}
+.box3{
+    background-color: #0e1015;
+}
+.box3{
+    color: white;
+}
+.box3 h4{
+    font-size: 31px;
+}
+.box3 ul{}
+.box3 ul li{
+    display: inline-block;
+    padding: 2px 12px;
+    font-size: 26px;
+}
+.box4{
+    background-color: black;
+    color: white;
+}
